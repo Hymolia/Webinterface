@@ -1,4 +1,4 @@
-export const BASE_PATH = import.meta.env.VITE_API_URL || "http://cfx.playerparadise.eu:2331"
+export const BASE_PATH = import.meta.env.VITE_API_URL || "http://cfx.playerparadise.eu:8888"
 export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://invite.playerparadise.eu"
 
 export function get(path: string) {
